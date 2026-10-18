@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: maknazul-irfan-portal
+    runtime: node
+    plan: free
+    buildCommand: echo "no build needed"
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: ADMIN_PASS
+        sync: false

@@ -1,0 +1,13 @@
+{
+  "name": "maknazul-irfan-academy-result-portal",
+  "version": "1.0.0",
+  "description": "Dynamic student result portal for MAKNAZUL 'IRFAN ACADEMY",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
