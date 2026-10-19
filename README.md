@@ -10,3 +10,6 @@ Environment variables: ADMIN_USER, ADMIN_PASS, SESSION_SECRET, PORT, DATA_DIR.
 
 Customise school name, Term/Term names, grading scale and graduation units in `lib/config.js`.
 Free hosts can erase data on restart: use Backup & restore on the admin Students page regularly.
+
+## Install as an app
+Open the portal in Chrome/Edge (Android, desktop) and tap **Install app** (or menu > Install). On iPhone: Safari > Share > Add to Home Screen.
